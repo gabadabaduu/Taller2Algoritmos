@@ -2,7 +2,7 @@ import re
 from collections import Counter
 from youtube_transcript_api import YouTubeTranscriptApi
 
-# Función para obtener la transcripción de un video de YouTube
+# Función para obtener la transcripción de un video de YouTubE 
 def get_youtube_transcription(video_url, language='es'):
     
     video_id = video_url.split('https://youtu.be/')[1]
